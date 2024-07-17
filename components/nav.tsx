@@ -50,7 +50,7 @@ const Nav = () => {
             >
               Customers
             </Link>
-            <Button className=" ">Get for free</Button>
+            <Button className=" ">Get Started</Button>
           </nav>
         </div>
       </div>

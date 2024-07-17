@@ -37,7 +37,7 @@ const Hero = () => {
         </p>
         <div className="flex justify-center">
           <Button size="lg" className="font-medium">
-            Get for free
+            Get Started
           </Button>
         </div>
       </div>
