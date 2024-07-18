@@ -30,7 +30,7 @@ const Showcase = () => {
           style={{
             opacity: opacity,
             rotateX: rotateX,
-            transformPerspective: "400px",
+            transformPerspective: "600px",
           }}
         >
           <Image
