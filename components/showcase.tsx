@@ -8,9 +8,9 @@ const Showcase = () => {
   const imgRef = useRef<HTMLImageElement>(null);
   const { scrollYProgress } = useScroll({
     target: imgRef,
-    offset: ["start end", "end end"],
+    offset: ["start end", "center"],
   });
-  const rotateX = useTransform(scrollYProgress, [0, 1], [15, 0]);
+  const rotateX = useTransform(scrollYProgress, [0, 1], [30, 0]);
   const opacity = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
 
   return (
@@ -30,7 +30,7 @@ const Showcase = () => {
           style={{
             opacity: opacity,
             rotateX: rotateX,
-            transformPerspective: "800px",
+            transformPerspective: "400px",
           }}
         >
           <Image
